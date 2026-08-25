@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f7fb;
+    color: #222;
+}
+
+header {
+    background: #172554;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    margin: 25px 20px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #172554;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    margin: 8px 0;
+}
+
+article {
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 4px solid #172554;
+    background: #f4f7fb;
+}
+
+article h3 {
+    color: #172554;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    background: #172554;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2563eb;
+}
+
+footer {
+    text-align: center;
+    background: #172554;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    section {
+        margin: 15px 10px;
+        padding: 25px 20px;
+    }
+}
